@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulso - O Ritmo do Mundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="container">
-            <div class="header-top">
-                <h1 class="logo">Pulso</h1>
-                <span class="live-date">Quarta-feira, 05 de Fevereiro de 2020</span>
+        <div class="container header-container"> 
+            <div class="logo-area"> 
+                <h1 class="logo">Pulso<span>.</span></h1>
             </div>
-            <nav>
-                <a href="#" id="nav-home">Página Inicial</a>
-                <a href="#">Brasil</a>
-                <a href="#">Mundo</a>
-                <a href="#">Economia</a>
-                <a href="#">Ciência</a>
-                <a href="#">Tecnologia</a>
+            <nav id="main-nav">
+                <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+                <div class="nav-links"> 
+                    <a href="#" class="nav-link active" id="nav-home" data-category="all">Página Inicial</a>
+                    <a href="#" class="nav-link" data-category="BRASIL">Brasil</a>
+                    <a href="#" class="nav-link" data-category="MUNDO">Mundo</a>
+                    <a href="#" class="nav-link" data-category="ECONOMIA">Economia</a>
+                    <a href="#" class="nav-link" data-category="CIÊNCIA">Ciência</a>
+                    <a href="#" class="nav-link" data-category="TECNOLOGIA">Tecnologia</a>
+                    <a href="#" class="nav-link" data-category="CULTURA">Cultura</a>
+                </div>
             </nav>
         </div>
     </header>
@@ -31,6 +37,9 @@
     <footer>
         <div class="container">
             <p>&copy; 2020 Pulso Notícias. Todos os direitos reservados.</p>
+            <nav>
+                <a href="#">Sobre Nós</a> | <a href="#">Contato</a> | <a href="#">Política de Privacidade</a>
+            </nav>
         </div>
     </footer>
 

@@ -8,6 +8,7 @@ const newsData = [
         summary: "Pronunciamento de Sirius é interrompido por um ataque caótico. O líder da força-tarefa foi alvo de um grupo mascarado momentos após anunciar a auditoria da ARISA.",
         author: "Redação Pulso (Com reportagem de campo de Marcos Andrade)",
         date: "05 de Fevereiro de 2020 - 09:25 (Atualizado 10:07)",
+        imageUrl: "https://media.gettyimages.com/id/898-9/video/low-angle-medium-shot-reenactment-riot-police-advancing-on-demonstration-in-cemetery-arresting-and.jpg?s=640x640&k=20&c=NKssRL4o1hUYe47K32XBnwssvhvlUTRAsVM31JXvUok=", 
         fullStory: `
             <p>Em um pronunciamento tenso que parou o país, Sirius, o líder da inteligência dos Defensores e agora chefe da força-tarefa que investiga a própria equipe, foi alvo de um ataque coordenado. O evento ocorreu momentos após ele anunciar uma aliança sem precedentes com a agência global ARISA para finalizar a investigação sobre a queda dos heróis nacionais.</p>
             <p>Sirius, a única figura de liderança dos Defensores que não foi implicada no escândalo de traição do mês passado, falou a uma nação que se sente traída. Ele confirmou que a investigação interna sobre o suposto conluio da equipe com células terroristas está "em estágio avançado."</p>
@@ -29,7 +30,8 @@ const newsData = [
         headline: "ANÁLISE: População vê ARISA como 'mal necessário' e 'única saída' para crise.",
         summary: "Diferente dos protestos radicais, enquetes mostram que 72% dos brasileiros apoiam a vinda da ARISA. Confiança na agência global supera a das instituições nacionais após escândalo.",
         author: "Clarissa Mendes, Editora de Sociedade",
-        date: "05 de Fevereiro de 2020 - 10:46",
+        date: "05 de Fevereiro de 2020 - 10:46",  
+        imageUrl: "https://agenciagov.ebc.com.br/noticias/202311/mcom-contrata-consultores-para-promover-estudos-sobre-remuneracao-de-pesquisadores-e-bolsistas/@@images/9ced9ece-0fe6-405b-a3e3-d43823f71f9f.jpeg" ,      
         fullStory: `
             <p>O ataque caótico e violento perpetrado por um grupo extremista em Brasília esta tarde não reflete, de forma alguma, o sentimento da nação. Na verdade, ele pode ter servido apenas para solidificar a decisão de Sirius. Uma enquete rápida realizada pelo Instituto DataPulso, com entrevistas online conduzidas nos 30 minutos seguintes ao anúncio da cooperação, mostra um quadro claro: 72% dos brasileiros são "totalmente a favor" (41%) ou "a favor com ressalvas" (31%) da vinda da ARISA para auditar a investigação.</p>
             <p>O motivo pode ser resumido em uma palavra: confiança. Ou, mais precisamente, a total ausência dela nas instituições nacionais após o escândalo dos Defensores. Durante anos, o Brasil investiu em uma "cultura de heróis", tratando os Defensores não apenas como protetores, mas como símbolos morais. A "Queda dos Defensores", que expôs sua traição, não foi apenas uma falha de segurança; foi um trauma psicológico coletivo.</p>
@@ -40,7 +42,6 @@ const newsData = [
         `
     },
 
-    // --- NOTÍCIA DE CULTURA (EXPANDIDA) ---
     {
         id: "cultura-filme-vizinho",
         isMainHeadline: false,
@@ -49,6 +50,7 @@ const newsData = [
         summary: "Sem heróis ou vilões, o filme de Chae Min-Jun foca na paranoia e no medo do cotidiano Despertado, quebrando recordes de bilheteria e gerando debates globais.",
         author: "Isabela Rocha, Crítica de Cinema",
         date: "29 de Janeiro de 2020",
+        imageUrl: "https://images.unsplash.com/photo-1598703900524-09a0c7defa29?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YyVDMyVBMm1lcmElMjBkZSUyMGNpbmVtYXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000",
         fullStory: `
             <p>Luzes piscando. O choro inexplicável do bebê no apartamento ao lado. A sensação incômoda de estar sendo observado. Estes são os elementos de "O Vizinho de Cima" ("The Neighbor Upstairs"), o thriller psicológico sul-coreano que, silenciosamente, tornou-se o filme mais comentado do planeta.</p>
             <p>Dirigido por Chae Min-Jun, mestre do suspense social, o filme evita os clichês do gênero "Despertado". Não há uniformes coloridos, nem cidades sendo destruídas. A trama se passa inteiramente nos corredores claustrofóbicos de um prédio residencial em Seul e foca em Soo-hyun e Ji-woo, um jovem casal que se muda para o apartamento 704.</p>
@@ -70,8 +72,9 @@ const newsData = [
         summary: "A parceria entre o instituto brasileiro e a gigante farmacêutica HelixCorp está perto de erradicar os quatro sorotipos da dengue com uma única vacina. A Fase 3 dos testes, a maior já feita para a doença, começará em 2021.",
         author: "Redação Pulso, Ciência",
         date: "25 de Janeiro de 2020",
+        imageUrl: "https://www.shutterstock.com/shutterstock/videos/1063773010/thumb/6.jpg?ip=x480",
         fullStory: `
-            <p>Uma notícia aguardada há décadas trouxe esperança para quase metade da população mundial. O Instituto Butantan, centro de excelência em pesquisa biológica do Brasil, em parceria estratégica com a HelixCorp, conglomerado farmacêutico sediado em Genebra, anunciou hoje os resultados altamente positivos da Fase 2 de seus testes clínicos para a vacina 'TetraVax-D', um imunizante inovador projetado para combater os quatro sorotipos conhecidos do vírus da dengue com uma única aplicação.</p>
+            <p>Uma notícia aguardada há décadas trouxe esperança para quase metade da população mundial. O Instituto Butantan, centro de excelência em pesquisa biológica do Brasil, em parceria estratégica com a HelixCorp, conglomerado farmacêutico sediado em Glasgow, anunciou hoje os resultados altamente positivos da Fase 2 de seus testes clínicos para a vacina 'TetraVax-D', um imunizante inovador projetado para combater os quatro sorotipos conhecidos do vírus da dengue com uma única aplicação.</p>
             <p>Os resultados, publicados na edição online da prestigiada revista científica 'The Lancet Infectious Diseases', detalham uma taxa de eficácia geral de 94% contra qualquer forma de dengue sintomática. O estudo, conduzido ao longo de dois anos com 5.000 voluntários em áreas endêmicas do Brasil, Colômbia e Vietnã, também demonstrou um perfil de segurança robusto, com efeitos colaterais leves e transitórios.</p>
             <p>O sucesso representa um avanço monumental. Tentativas anteriores de desenvolver uma vacina tetravalente enfrentaram o complexo desafio do fenômeno ADE (Antibody-Dependent Enhancement), onde a imunização contra um sorotipo poderia, paradoxalmente, aumentar a severidade da infecção por outro. A plataforma da TetraVax-D, baseada em um vetor viral quimérico geneticamente modificado, parece ter superado esse obstáculo.</p>
             <p>"O desafio nunca foi criar imunidade, mas criar uma imunidade balanceada e segura contra os quatro 'sabores' do vírus simultaneamente. Nossa abordagem induz uma resposta neutralizante ampla, sem favorecer um sorotipo em detrimento de outro," explicou a Dra. Mônica Kallás, diretora de pesquisa clínica do Butantan e co-autora principal do estudo, durante uma coletiva de imprensa realizada em São Paulo.</p>
@@ -88,6 +91,7 @@ const newsData = [
         summary: "Uma frente fria fora de época causa geadas em importantes regiões cafeeiras do Brasil, gerando pânico no mercado futuro sobre a oferta global do próximo ano.",
         author: "Bloomberg News (Adaptado)",
         date: "08 de Janeiro de 2020",
+        imageUrl: "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?cs=srgb&dl=pexels-livier-garcia-645743-1459339.jpg&fm=jpg",
         fullStory: `
             <p>Os contratos futuros do café arábica, negociados na bolsa de Nova York (ICE Futures U.S.), experimentaram uma alta vertiginosa no pregão desta quarta-feira, saltando mais de 8% e atingindo o maior valor em 14 meses. O gatilho para a disparada foi a confirmação de geadas significativas e totalmente inesperadas atingindo áreas produtoras chave no Sul de Minas Gerais, o coração da produção de café de alta qualidade do Brasil.</p>
             <p>Relatos de meteorologistas e imagens de satélite confirmaram que uma massa de ar polar excepcionalmente forte para esta época do ano — pleno verão no hemisfério sul — avançou sobre o Sudeste, derrubando as temperaturas para níveis próximos a 0°C em municípios cruciais como Poços de Caldas, Guaxupé e Varginha durante a madrugada. Embora a extensão total dos danos ainda esteja sendo meticulosamente avaliada pelas cooperativas locais, como a Minasul, fotos e vídeos mostrando cafezais cobertos por uma fina, porém letal, camada de gelo inundaram as plataformas de comunicação dos traders e analistas de commodities.</p>
@@ -108,6 +112,7 @@ const newsData = [
         summary: "Trecho central da ferrovia, chave para o agronegócio, é concedido à iniciativa privada por 30 anos. Expectativa é de destravar gargalos logísticos e reduzir dependência rodoviária.",
         author: "Redação Pulso, Economia",
         date: "12 de Dezembro de 2019",
+        imageUrl: "https://images.pexels.com/photos/358167/pexels-photo-358167.jpeg?cs=srgb&dl=pexels-pixabay-358167.jpg&fm=jpg",
         fullStory: `
             <p>Em um dos leilões de infraestrutura mais aguardados e disputados dos últimos anos, o Governo Federal concedeu hoje à iniciativa privada a operação do trecho central da Ferrovia Norte-Sul (FNS), um corredor logístico vital de 1.537 quilômetros entre Porto Nacional (TO) e Estrela d'Oeste (SP). O vencedor foi o consórcio 'Pátria Logística', uma joint venture entre o fundo de investimento Pátria Infraestrutura e a operadora ferroviária canadense 'TransGlobal Rail', que apresentou um lance de outorga de R$ 2,719 bilhões, superando em uma margem apertada o grupo concorrente liderado pela gigante nacional Rumo Logística.</p>
             <p>A concessão, com duração de 30 anos, é vista como um marco para destravar o potencial de exportação do agronegócio brasileiro. O contrato exige que o consórcio Pátria Logística invista um mínimo obrigatório de R$ 3 bilhões na modernização da via permanente, na duplicação de trechos críticos e na construção de novos pátios multimodais nos primeiros cinco anos de operação. O objetivo principal é transferir uma parte significativa do transporte de grãos e fertilizantes das congestionadas e precárias rodovias para a ferrovia, reduzindo custos de frete e emissões de carbono.</p>
@@ -124,6 +129,7 @@ const newsData = [
         summary: "Considerada a 'voz da nova MPB', a cantora baiana surpreende com disco experimental que troca o violão por sintetizadores. Crítica celebra a 'vulnerabilidade lírica' e a 'produção ousada'.",
         author: "Silvio Castro, Crítico Musical",
         date: "05 de Dezembro de 2019",
+        imageUrl: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXN0JUMzJUJBZGlvJTIwZGUlMjBtJUMzJUJBc2ljYXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" ,
         fullStory: `
             <p>O silêncio foi quebrado com um pulso eletrônico. Após um hiato de cinco anos que alimentou especulações e deixou uma legião de fãs órfãos, a cantora e compositora baiana Lin Rios lançou hoje, sem aviso prévio, seu quarto e mais radical álbum de estúdio, 'Translúcida'. Disponível globalmente em todas as plataformas de streaming, o disco marca uma ruptura abrupta e corajosa com a sonoridade MPB-Jazz que a catapultou ao estrelato no início da década.</p>
             <p>Esqueça o violão de nylon e os arranjos de bossa nova. 'Translúcida' foi quase inteiramente gravado nos lendários estúdios Hansa, em Berlim, e mergulha de cabeça em paisagens sonoras eletrônicas. Sintetizadores modulares, batidas quebradas influenciadas pelo UK Garage, e vocais processados criam uma atmosfera etérea, melancólica e, por vezes, claustrofóbica. A produção é assinada pelo renomado produtor alemão Klaus Richter, conhecido por moldar o som de artistas de vanguarda como FKA Twigs e James Blake.</p>
@@ -142,6 +148,7 @@ const newsData = [
         summary: "Pesquisa de 2019 já apontava discrepâncias alarmantes: mais 'uso negativo' dos poderes, mais mulheres Despertadas e concentração no Sul Global. Dados pós-Terceiro Despertar indicam que a diferença aumentou.",
         author: "Redação Pulso, com informações da Universidade de Genebra",
         date: "20 de Novembro de 2019 (Nota do Editor: Atualizado com dados preliminares de Jan/2020)",
+        imageUrl: "https://wallpapercat.com/w/full/e/0/1/1323385-1920x1080-desktop-full-hd-science-wallpaper-image.jpg" ,
         fullStory: `
             <p>Um estudo de longo prazo conduzido pelo Instituto de Estudos Pós-Humanos da Universidade de Genebra (IGH), na Suíça, continua a gerar controvérsia e perplexidade. Publicado originalmente em Novembro de 2019 no 'Journal of Sociological Genetics', o relatório "Demografia do Despertar: Uma Análise Estatística Global 2008-2019" utilizou uma combinação de dados públicos e informações vazadas para traçar o perfil mais abrangente até então sobre quem são os Despertados no mundo.</p>
             <p>Já na sua publicação original, o estudo apontava para três tendências contraintuitivas que desafiavam percepções populares:</p>
@@ -154,7 +161,23 @@ const newsData = [
             <p>A ARISA e outros órgãos governamentais ainda não comentaram as novas descobertas preliminares do IGH.</p>
         `
     },
-    // --- NOTÍCIA DE POLÍTICA (EXPANDIDA) ---
+    {
+        id: "ciencia-inpe-desmatamento",
+        isMainHeadline: false,
+        category: "BRASIL - MEIO AMBIENTE",
+        headline: "INPE divulga dados alarmantes de desmatamento na Amazônia em 2019; Governo contesta metodologia.",
+        summary: "Relatório anual do PRODES aponta aumento de 29% na taxa de desmatamento, o maior índice da década. Ministro do Meio Ambiente questiona 'alarmismo' e defende 'desenvolvimento sustentável'.",
+        author: "Redação Pulso, Meio Ambiente",
+        date: "18 de Novembro de 2019",
+        imageUrl: "https://images.unsplash.com/photo-1645430786128-1d092f77d5bc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVmb3Jlc3RhdGlvbnxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" ,
+        fullStory: `
+            <p>O Instituto Nacional de Pesquisas Espaciais (INPE) divulgou hoje os dados consolidados do Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite (PRODES) para o período de agosto de 2018 a julho de 2019. Os números confirmaram os alertas emitidos ao longo do ano: a taxa oficial de desmatamento atingiu 9.762 km², um aumento alarmante de 29,5% em relação ao período anterior e o maior índice registrado desde 2008.</p>
+            <p>Os dados do PRODES, considerados a métrica oficial e mais precisa para medir o corte raso na floresta, indicam uma aceleração significativa da derrubada, principalmente nos estados do Pará, Mato Grosso, Amazonas e Rondônia. As imagens de satélite mostram grandes áreas convertidas para pastagem e agricultura, além do avanço da mineração ilegal.</p>
+            <p>"Os números são inegáveis e extremamente preocupantes. Eles refletem um desmonte das políticas de fiscalização e um enfraquecimento dos órgãos ambientais", declarou um ex-diretor do INPE, exonerado no início do ano após embates com o governo sobre dados preliminares. "A floresta está sob ataque, e as consequências climáticas e de biodiversidade serão sentidas globalmente."</p>
+            <p>Em uma coletiva de imprensa convocada às pressas em Brasília, o Ministro do Meio Ambiente contestou os dados, embora sem apresentar números alternativos. Ele criticou o que chamou de "alarmismo" e "uso político" dos dados do INPE, questionando a metodologia utilizada para calcular a área desmatada. "Estamos comprometidos com o desenvolvimento sustentável da Amazônia, conciliando produção e preservação. Os dados do INPE não refletem a realidade complexa da região e podem prejudicar a imagem do agronegócio brasileiro", afirmou o ministro. Ele prometeu apresentar um "plano robusto" de combate ao desmatamento ilegal "em breve".</p>
+            <p>A divulgação dos dados aumenta a pressão internacional sobre o Brasil, especialmente de países europeus signatários do Acordo de Paris e investidores internacionais preocupados com critérios ESG (Ambiental, Social e Governança). O embate entre a ciência e a política sobre o futuro da Amazônia parece estar longe de uma resolução.</p>
+        `
+    },
     {
         id: "politica-reforma-previdencia",
         isMainHeadline: false,
@@ -163,6 +186,7 @@ const newsData = [
         summary: "Após meses de negociação, a Emenda Constitucional que altera as regras de aposentadoria é aprovada. Governo comemora economia fiscal, mas especialistas alertam para impacto social a longo prazo.",
         author: "Redação Pulso, Política",
         date: "12 de Novembro de 2019",
+        imageUrl: "https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg?cs=srgb&dl=pexels-olly-3768131.jpg&fm=jpg" ,
         fullStory: `
             <p>Após uma maratona de votações que se estendeu pela madrugada e meses de intensas negociações políticas, o Congresso Nacional promulgou na noite de ontem a Emenda Constitucional nº 103, conhecida como a Nova Reforma da Previdência. A cerimônia, realizada em sessão conjunta do Senado e da Câmara dos Deputados, foi marcada por discursos inflamados da oposição e protestos de sindicatos do lado de fora do Palácio do Congresso Nacional.</p>
             <p>A aprovação da reforma, considerada a principal vitória legislativa do governo no ano e um pilar de seu programa econômico, altera profundamente as regras para aposentadorias e pensões no Brasil. As mudanças mais significativas incluem o estabelecimento de uma idade mínima para aposentadoria (65 anos para homens e 62 anos para mulheres, após um período de transição), o aumento do tempo mínimo de contribuição e novas fórmulas de cálculo para o valor dos benefícios, geralmente menos vantajosas que as regras anteriores.</p>
