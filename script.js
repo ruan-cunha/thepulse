@@ -38,16 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
             if (article.isMainHeadline) card.classList.add('breaking-news');
             if (article.isSecondaryBreaking) card.classList.add('secondary-breaking');
 
-            // Cria o elemento da imagem
             const imgElement = document.createElement('img');
-            imgElement.src = article.imageUrl || 'https://via.placeholder.com/800x400.png?text=Imagem+Nao+Encontrada'; // Fallback
-            imgElement.alt = article.headline; // Alt text descritivo
+            imgElement.src = article.imageUrl || 'https://via.placeholder.com/800x400.png?text=Imagem+Nao+Encontrada';
+            imgElement.alt = article.headline; 
             imgElement.className = 'news-card-image';
-            imgElement.loading = 'lazy'; // Otimização: carrega imagens só quando visíveis
+            imgElement.loading = 'lazy'; 
 
-            // Cria um container para o conteúdo de texto (necessário para o layout do breaking-news)
             const contentWrapper = document.createElement('div');
-            contentWrapper.className = 'card-content'; // Classe usada no CSS do breaking-news
+            contentWrapper.className = 'card-content'; 
             contentWrapper.innerHTML = `
                 <span class="category">${article.category}</span>
                 <h2>${article.headline}</h2>
@@ -55,8 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span class="timestamp">${article.date.split(' - ')[0]}</span>
             `;
 
-            // Adiciona a imagem e o conteúdo ao card
-            // Para o breaking news, o CSS vai cuidar do posicionamento via grid
             card.appendChild(imgElement);
             card.appendChild(contentWrapper);
 
@@ -81,13 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
         mainContent.innerHTML = '';
         mainContent.className = 'container article-view';
 
-        // Cria a imagem de destaque do artigo
         const articleImg = document.createElement('img');
-        articleImg.src = article.imageUrl || 'https://via.placeholder.com/1200x400.png?text=Imagem+Nao+Encontrada'; // Fallback
+        articleImg.src = article.imageUrl || 'https://via.placeholder.com/1200x400.png?text=Imagem+Nao+Encontrada'; 
         articleImg.alt = article.headline;
         articleImg.className = 'article-image';
 
-        // Cria o restante do conteúdo do artigo
         const articleContent = document.createElement('div');
         articleContent.innerHTML = `
             <a href="#" class="back-link">&larr; Voltar para ${currentCategory === 'all' ? 'Página Inicial' : currentCategory.toUpperCase()}</a>
@@ -103,10 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
-        // Adiciona a imagem ANTES do conteúdo
         mainContent.appendChild(articleImg);
         mainContent.appendChild(articleContent);
-
 
         mainContent.querySelector('.back-link').addEventListener('click', (e) => {
             e.preventDefault();
@@ -125,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Lógica para o Menu Hamburger ---
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
 
@@ -140,9 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-    // --- Fim da Lógica do Menu Hamburger ---
 
-    // --- Inicialização ---
     mainNav.addEventListener('click', (e) => {
         if (e.target.classList.contains('nav-link') && e.target.dataset.category) {
             e.preventDefault();
@@ -152,5 +141,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     renderHomepage('all');
+
 
 });
