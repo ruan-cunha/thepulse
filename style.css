@@ -1,4 +1,4 @@
-/* --- Reset Básico e Fontes --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,19 +7,19 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 100%; /* Base para REM */
+    font-size: 100%; 
 }
 
 body {
     font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f4f6f9; /* Tom de cinza azulado muito leve */
-    color: #333; /* Texto principal ligeiramente mais claro */
+    background-color: #f4f6f9;
+    color: #333; 
     line-height: 1.7;
-    font-size: 1rem; /* Equivalente a 16px */
+    font-size: 1rem; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    -webkit-font-smoothing: antialiased; /* Melhora renderização de fontes */
+    -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 0.8em; /* Ajuste fino */
-    color: #1a1a1a; /* Títulos mais escuros */
+    margin-bottom: 0.8em; 
+    color: #1a1a1a; 
 }
 
 .container {
@@ -39,25 +39,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #b30000; /* Vermelho um pouco menos vibrante */
+    color: #b30000; 
     text-decoration: none;
     transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 a:hover {
-    color: #800000; /* Vermelho mais escuro */
-    opacity: 0.85; /* Opacidade sutil */
+    color: #800000; 
+    opacity: 0.85; 
 }
 
-/* --- Cabeçalho e Navegação --- */
 header {
     background: #ffffff;
-    border-bottom: 1px solid #dde1e6; /* Borda mais suave */
-    padding: 12px 0; /* Padding ligeiramente menor */
+    border-bottom: 1px solid #dde1e6;
+    padding: 12px 0; 
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06); /* Sombra mais discreta */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
     width: 100%;
 }
 
@@ -73,13 +72,13 @@ header {
 }
 
 .logo {
-    font-size: 2rem; /* Logo ligeiramente menor */
+    font-size: 2rem; 
     color: #b30000;
     font-weight: 700;
     margin: 0;
     margin-right: 15px;
     transition: transform 0.2s ease-out;
-    letter-spacing: -1px; /* Letras um pouco mais juntas */
+    letter-spacing: -1px;
 }
 .logo:hover {
     transform: scale(1.03);
@@ -90,7 +89,7 @@ header {
 }
 
 .live-date {
-    font-size: 0.75rem; /* Data menor */
+    font-size: 0.75rem; 
     color: #6c757d;
     font-weight: 600;
     text-transform: uppercase;
@@ -113,13 +112,13 @@ header {
 nav a.nav-link {
     color: #495057;
     font-weight: 600;
-    margin-left: 28px; /* Mais espaço */
-    font-size: 0.9rem; /* Links do menu menores */
+    margin-left: 28px; 
+    font-size: 0.9rem; 
     padding: 8px 0px 5px 0px;
-    border-bottom: 2px solid transparent; /* Borda mais fina */
+    border-bottom: 2px solid transparent;
     transition: color 0.2s, border-bottom-color 0.2s;
     text-transform: uppercase;
-    letter-spacing: 0.8px; /* Mais espaçamento entre letras */
+    letter-spacing: 0.8px; 
 }
 
 nav a.nav-link:hover {
@@ -132,9 +131,9 @@ nav a.nav-link.active {
     border-bottom-color: #b30000;
 }
 
-/* --- Conteúdo Principal e Grid de Notícias --- */
+
 main {
-    padding-top: 45px; /* Mais espaço ainda */
+    padding-top: 45px;
     padding-bottom: 50px;
     flex-grow: 1;
     position: relative;
@@ -144,37 +143,36 @@ main {
 .news-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 35px; /* Mais espaço */
+    gap: 35px; 
 }
 
 .news-card {
     background: #ffffff;
-    border: 1px solid #e1e5eb; /* Borda suave */
-    border-radius: 6px; /* Bordas levemente menos arredondadas */
-    box-shadow: 0 3px 8px rgba(0,0,0,0.05); /* Sombra atualizada */
+    border: 1px solid #e1e5eb; 
+    border-radius: 6px; 
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05); 
     overflow: hidden;
     cursor: pointer;
-    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Transição mais suave (cubic-bezier) */
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
     display: flex;
     flex-direction: column;
 }
 
 .news-card:hover {
-    transform: translateY(-8px); /* Efeito de 'levantar' mais pronunciado */
-    box-shadow: 0 12px 24px rgba(0,0,0,0.1); /* Sombra maior no hover */
+    transform: translateY(-8px); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
 }
 
-/* --- Estilos para Imagens --- */
 .news-card-image {
     width: 100%;
     height: 180px;
     object-fit: cover;
     display: block;
-    filter: saturate(1.1); /* Saturação leve nas imagens */
+    filter: saturate(1.1); 
     transition: filter 0.3s ease;
 }
 .news-card:hover .news-card-image {
-    filter: saturate(1); /* Remove saturação no hover */
+    filter: saturate(1); 
 }
 
 
@@ -187,54 +185,53 @@ main {
     border-radius: 4px;
 }
 
-/* --- Conteúdo do Card --- */
+
 .card-content {
-    padding: 15px 20px 20px 20px; /* Ajuste no padding */
+    padding: 15px 20px 20px 20px; 
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
 .news-card .category {
-    font-size: 0.7rem; /* Categoria menor */
+    font-size: 0.7rem;
     font-weight: 700;
     color: #b30000;
-    padding-bottom: 8px; /* Mais espaço após categoria */
+    padding-bottom: 8px;
     text-transform: uppercase;
-    letter-spacing: 1.1px; /* Espaçamento maior */
+    letter-spacing: 1.1px; 
 }
 
 .news-card h2 {
-    font-size: 1.2rem; /* Título ligeiramente menor */
-    line-height: 1.4; /* Melhor espaçamento */
+    font-size: 1.2rem; 
+    line-height: 1.4; 
     color: #1a1a1a;
     margin-bottom: 12px;
 }
 
 .news-card p.summary {
-    font-size: 0.9rem; /* Sumário menor */
-    color: #555; /* Texto do sumário mais escuro */
+    font-size: 0.9rem; 
+    color: #555; 
     flex-grow: 1;
     margin-bottom: 15px;
     line-height: 1.6;
 }
 
 .news-card .timestamp {
-    font-size: 0.75rem; /* Timestamp menor */
-    color: #999; /* Cor mais suave */
+    font-size: 0.75rem; 
+    color: #999; 
     margin-top: auto;
     border-top: 1px solid #f1f3f5;
     padding-top: 12px;
 }
 
-/* Destaques */
 .news-card.breaking-news {
     display: grid;
     grid-template-columns: 40% 1fr;
     grid-template-rows: auto;
     gap: 0;
     align-items: stretch;
-    border-left: 5px solid #b30000; /* Vermelho atualizado */
+    border-left: 5px solid #b30000;
 }
 
 .news-card.breaking-news .news-card-image {
@@ -248,7 +245,7 @@ main {
 
 .news-card.breaking-news .card-content {
     grid-column: 2 / 3;
-    padding: 25px; /* Mais padding interno */
+    padding: 25px; 
 }
 
 .news-card.breaking-news .category,
@@ -256,16 +253,16 @@ main {
 .news-card.breaking-news p.summary,
 .news-card.breaking-news .timestamp {
     padding: 0;
-    margin-bottom: 12px; /* Ajuste */
+    margin-bottom: 12px;
 }
 .news-card.breaking-news h2 {
-    font-size: 1.7rem; /* Ajuste */
+    font-size: 1.7rem;
     color: #b30000;
     line-height: 1.35;
 }
 .news-card.breaking-news p.summary {
     flex-grow: 1;
-    font-size: 0.95rem; /* Ajuste */
+    font-size: 0.95rem; 
 }
 .news-card.breaking-news .timestamp {
      margin-top: auto;
@@ -276,7 +273,7 @@ main {
 
 
 .news-card.secondary-breaking {
-    border-top: 4px solid #b30000; /* Vermelho atualizado */
+    border-top: 4px solid #b30000; 
 }
 
 @media (min-width: 1024px) {
@@ -288,19 +285,18 @@ main {
     }
 }
 
-/* --- Página do Artigo --- */
 .article-view {
     background: #ffffff;
-    padding: 45px 50px; /* Mais padding interno */
+    padding: 45px 50px; 
     border: 1px solid #e1e5eb;
     border-radius: 6px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* Sombra mais visível */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
     margin-top: -10px;
 }
 
 .article-view .back-link {
     display: inline-block;
-    margin-bottom: 35px; /* Mais espaço */
+    margin-bottom: 35px;
     color: #b30000;
     font-weight: 600;
     font-size: 0.9rem;
@@ -315,12 +311,12 @@ main {
     background-color: #ffffff;
     z-index: 2;
     margin-bottom: 30px;
-    padding-bottom: 20px; /* Adiciona espaço antes da linha */
-    border-bottom: 1px solid #dee2e6; /* Move a linha para baixo do meta-info */
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #dee2e6; 
 }
 
 .article-view .article-header .category {
-    font-size: 0.85rem; /* Ajuste */
+    font-size: 0.85rem; 
     font-weight: 700;
     color: #b30000;
     text-transform: uppercase;
@@ -328,17 +324,17 @@ main {
 }
 
 .article-view .article-header h1 {
-    font-size: 2.3rem; /* Título menor e mais elegante */
-    margin: 8px 0 18px 0; /* Ajuste de margens */
+    font-size: 2.3rem;
+    margin: 8px 0 18px 0; 
     color: #1a1a1a;
 }
 
 .article-view .meta-info {
-    font-size: 0.8rem; /* Meta info menor */
+    font-size: 0.8rem; 
     color: #6c757d;
-    padding-bottom: 0; /* Remove padding */
-    margin-bottom: 0; /* Remove margem */
-    border-bottom: none; /* Remove borda daqui */
+    padding-bottom: 0; 
+    margin-bottom: 0; 
+    border-bottom: none; 
 }
 
 .article-view .article-body {
@@ -347,12 +343,12 @@ main {
 }
 
 .article-view .article-body p {
-    font-size: 1.05rem; /* Leitura um pouco menor */
-    margin-bottom: 1.6em; /* Mais espaço entre parágrafos */
+    font-size: 1.05rem; 
+    margin-bottom: 1.6em; 
     color: #333;
 }
 .article-view .article-body p:first-of-type {
-    font-size: 1.15rem; /* Primeiro parágrafo maior */
+    font-size: 1.15rem; 
     font-weight: 600;
     color: #1a1a1a;
     line-height: 1.6;
@@ -360,17 +356,16 @@ main {
 
 .article-view .article-body strong {
     color: #1a1a1a;
-    font-weight: 600; /* Bold um pouco mais leve */
+    font-weight: 600; 
 }
 
-/* --- Rodapé --- */
 footer {
     text-align: center;
-    margin-top: 70px; /* Mais espaço */
+    margin-top: 70px; 
     padding: 35px 0;
-    background: #212529; /* Rodapé mais escuro */
+    background: #212529; 
     color: #adb5bd;
-    font-size: 0.85rem; /* Texto menor */
+    font-size: 0.85rem; 
     width: 100%;
 }
 
@@ -381,7 +376,7 @@ footer nav {
 footer nav a {
     color: #dee2e6;
     margin: 0 12px;
-    font-size: 0.8rem; /* Links menores */
+    font-size: 0.8rem; 
 }
 
 footer nav a:hover {
@@ -389,17 +384,16 @@ footer nav a:hover {
     opacity: 1;
 }
 
-/* --- Responsividade --- */
 @media (max-width: 992px) {
     .news-grid {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 25px; /* Menos gap */
+        gap: 25px; 
     }
     .news-card.breaking-news {
         grid-column: 1 / -1;
     }
     .article-view {
-        padding: 30px; /* Menos padding */
+        padding: 30px; 
     }
     .article-view .article-header h1 {
         font-size: 1.8rem;
@@ -414,24 +408,24 @@ footer nav a:hover {
 
 @media (max-width: 768px) {
     body {
-        font-size: 15px; /* Base menor no mobile */
+        font-size: 15px; 
     }
     .header-container {
         flex-wrap: wrap;
     }
     .logo-area {
         width: 100%;
-        margin-bottom: 10px; /* Menos margem */
+        margin-bottom: 10px; 
         justify-content: space-between;
     }
     .logo {
-        font-size: 1.7rem; /* Logo menor */
+        font-size: 1.7rem; 
     }
 
     .menu-toggle {
         display: block;
         position: absolute;
-        top: 12px; /* Ajuste */
+        top: 12px; 
         right: 15px;
     }
     #main-nav {
@@ -443,7 +437,7 @@ footer nav a:hover {
         width: 100%;
         background-color: #fff;
         position: absolute;
-        top: 58px; /* Ajuste fino */
+        top: 58px; 
         left: 0;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         border-top: 1px solid #dee2e6;
@@ -456,7 +450,7 @@ footer nav a:hover {
         padding: 15px 20px;
         border-bottom: 1px solid #eee;
         text-align: center;
-        font-size: 0.95rem; /* Ajuste */
+        font-size: 0.95rem; 
     }
     nav a.nav-link.active {
         border-bottom-color: #eee;
@@ -474,7 +468,7 @@ footer nav a:hover {
         grid-column: 1 / -1;
     }
     .news-card.breaking-news .news-card-image {
-        height: 180px; /* Imagem menor no mobile */
+        height: 180px; 
         border-right: none;
         border-bottom: 1px solid #e9ecef;
     }
@@ -489,31 +483,32 @@ footer nav a:hover {
         margin-bottom: 10px;
     }
     .news-card.breaking-news h2 {
-        font-size: 1.5rem; /* Ajuste */
+        font-size: 1.5rem; 
     }
      .news-card.breaking-news .timestamp{
         margin-top: 10px;
      }
 
     .news-card h2 {
-        font-size: 1.1rem; /* Ajuste */
+        font-size: 1.1rem; 
     }
 
     .article-view {
-        padding: 15px; /* Menos padding */
+        padding: 15px; 
         margin-top: 0;
     }
     .article-view .article-header h1 {
-        font-size: 1.6rem; /* Ajuste */
+        font-size: 1.6rem; 
     }
      .article-view .article-header {
         padding-bottom: 15px;
         margin-bottom: 20px;
      }
     .article-view .article-body p {
-        font-size: 0.95rem; /* Ajuste */
+        font-size: 0.95rem; 
     }
     .article-view .article-body p:first-of-type {
         font-size: 1.05rem;
     }
+
 }
