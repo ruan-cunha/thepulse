@@ -1,5 +1,4 @@
 const newsData = [
-    // --- NOTÍCIAS PRINCIPAIS DE HOJE (05/02/2020) ---
     {
         id: "coletiva-sirius-caos",
         isMainHeadline: true,
@@ -63,7 +62,6 @@ const newsData = [
         `
     },
     
-    // --- NOTÍCIA DA VACINA (EXPANDIDA e RENOMEADA) ---
     {
         id: "ciencia-butantan-dengue",
         isMainHeadline: false,
@@ -82,7 +80,7 @@ const newsData = [
             <p>Crucialmente, o acordo de parceria público-privada garante ao Instituto Butantan a licença para produzir a vacina localmente, a preço de custo, para atender à demanda do Sistema Único de Saúde (SUS) do Brasil e para exportação subsidiada a países vizinhos e membros da CPLP (Comunidade dos Países de Língua Portuguesa). "Esta é a ciência a serviço da saúde pública, um modelo que o Brasil tem orgulho de liderar", concluiu o diretor do Butantan.</p>
         `
     },
-    // --- NOTÍCIA DO CAFÉ (EXPANDIDA e RENOMEADA) ---
+
     {
         id: "economia-cafe-clima",
         isMainHeadline: false,
@@ -101,9 +99,6 @@ const newsData = [
         `
     },
 
-    // --- NOTÍCIAS DE WORLDBUILDING (MAIS ANTIGAS) ---
-
-    // --- NOTÍCIA DE INFRAESTRUTURA (EXPANDIDA) ---
     {
         id: "brasil-infra-ferrovia",
         isMainHeadline: false,
@@ -120,7 +115,7 @@ const newsData = [
             <p>O consórcio vencedor se comprometeu a iniciar as operações comerciais em até 12 meses. No entanto, o leilão não foi isento de críticas. Associações de caminhoneiros protestaram contra o que chamam de "canibalização do setor rodoviário", enquanto ONGs ambientais questionam o impacto da expansão ferroviária em áreas de preservação próximas ao traçado. A Agência Nacional de Transportes Terrestres (ANTT) será a responsável por fiscalizar o cumprimento rigoroso das metas contratuais e das condicionantes ambientais.</p>
         `
     },
-    // --- NOTÍCIA DE CULTURA/MÚSICA (EXPANDIDA) ---
+
     {
         id: "cultura-mpb-novo-disco",
         isMainHeadline: false,
@@ -139,7 +134,7 @@ const newsData = [
             <p>Lin Rios anunciou uma turnê mundial para 2020, que começará justamente em Salvador, em Abril, prometendo um espetáculo audiovisual imersivo que traduza a complexidade sonora de 'Translúcida'. O álbum já é um forte candidato a figurar nas listas de melhores do ano.</p>
         `
     },
-    // --- NOTÍCIA SOBRE DEMOGRAFIA DESPERTADA (REESCRITA e RENOMEADA) ---
+
     {
         id: "estudo-demografia-despertada",
         isMainHeadline: false,
@@ -196,4 +191,5 @@ const newsData = [
             <p>O impacto social a longo prazo também é uma grande incógnita. Economistas de corrente heterodoxa preveem que a reforma pode acentuar a desigualdade social, já que trabalhadores de baixa renda, informais e com carreiras intermitentes (como muitos no setor de serviços e agricultura) terão mais dificuldade em cumprir os novos e mais rigorosos requisitos de tempo mínimo de contribuição. O governo argumenta que a reforma do Bolsa Família e outros programas sociais compensarão esses efeitos, mas a oposição já articula ações diretas de inconstitucionalidade (ADIs) no Supremo Tribunal Federal para questionar pontos específicos da reforma, como as novas regras para pensão por morte e aposentadoria especial.</p>
         `
     }
+
 ];
