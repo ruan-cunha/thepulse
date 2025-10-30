@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-content');
     const mainNav = document.getElementById('main-nav');
     let currentCategory = 'all';
-
+    //L̸̸̗̭̲̣̫̿́͘͢o̴̡̢̹̞͕̰͌͜͝ͅo̸̴̷̡͂҉̘̣̖͈̼k̃͝͏̮̯̹͈̟͜͞͠i̵̴̗͚̼͙̔́͟͠n̴̛̳̥̲̜͒̓͟͜͠gͭ̉҉̷̸̶̛̱̮̭̺ ̸̶̛̇̚̕͏͇̣͈͉f̷̢̢̬͕̤ͣ̄̀͠ȯ̘̱̗̓̏̀͘͡͡͡ȑ̵̸̡̩̺̠ͩ̂͟͝ ̏͋̚҉̸̧̡̙͈̠͟s̱̗͉ͯͫ̇̕̕͢͡͡o̷͒̈ͧ͟҉̸̧̺͔m̸̵̶̱͍͂̅̍͂͜͡eͣͥ̃̏̀͟͏̶̴͇̭tͮ̆̌̔͞͏̨̦͙̕͠h̒̽ͮͨ͞͝҉̝̀̕i̧̛̟ͥ̎ͥͨ̄͘͢͞n̴̳ͪ̊̂̈ͩ͘͟͡͝g̸̨̛̪͂ͭ͊ͥ̌̀͞?̨̦͋̈͆͂̍̀͜͠͡
     function renderHomepage(categoryFilter = 'all') {
         currentCategory = categoryFilter;
         mainContent.innerHTML = '';
@@ -144,3 +144,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
