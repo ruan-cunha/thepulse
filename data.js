@@ -150,7 +150,7 @@ const newsData = [
             <p>1.  <strong>O Desequilíbrio Moral Percebido:</strong> Ao cruzar dados de atividades criminais com registros de Despertados conhecidos por atuarem em prol da segurança pública, o estudo de 2019 já estimava uma proporção alarmante de quase <strong>dois indivíduos utilizando habilidades para fins 'negativos' para cada um que as utiliza para fins 'positivos'</strong>. O relatório questionava: "Seria o Despertar um catalisador para tendências antissociais pré-existentes, ou o próprio fenômeno possui uma inclinação inerente?"</p>
             <p>2.  <strong>Predominância Feminina:</strong> Contrariando a representação na mídia, os dados agregados de 2019 já sugeriam uma maioria feminina entre a população Despertada identificada ou estimada, na época calculada em cerca de <strong>52% mulheres contra 48% homens</strong>. O padrão era consistente globalmente.</p>
             <p>3.  <strong>A Correlação Geográfica e Socioeconômica:</strong> O estudo confirmou que a densidade per capita de Despertados era significativamente maior em países classificados como de "renda média-baixa" ou "baixa". Regiões como o <strong>Sudeste Asiático, a África Subsaariana e a América Latina apresentavam as maiores concentrações</strong>.</p>
-            <p><strong>Impacto do Terceiro Despertar (Janeiro 2020):</strong> Em uma nota preliminar adicionada ao estudo esta semana (e obtida pelo <strong>Pulso</strong>), os pesquisadores do IGH expressam "grande preocupação". Análises iniciais de dados globais coletados após o evento conhecido como "Terceiro Despertar" (ocorrido no início de Janeiro de 2020) sugerem que as tendências observadas em 2019 não apenas se mantiveram, como se **intensificaram dramaticamente**.</p>
+            <p><strong>Impacto do Terceiro Despertar (Janeiro 2020):</strong> Em uma nota preliminar adicionada ao estudo esta semana (e obtida pelo <strong>Pulso</strong>), os pesquisadores do IGH expressam "grande preocupação". Análises iniciais de dados globais coletados após o evento conhecido como "Terceiro Despertar" (ocorrido no início de Janeiro de 2020) sugerem que as tendências observadas em 2019 não apenas se mantiveram, como se intensificaram dramaticamente.</p>
             <p>"Os dados pós-Terceiro Despertar, embora ainda brutos, indicam um aumento acentuado nas três discrepâncias," afirma a nota. "A proporção estimada de 'uso negativo' versus 'positivo' pode ter se aproximado de 2.5 para 1. A predominância feminina pode ter subido para 60-62%. E as novas manifestações parecem estar ainda mais concentradas geograficamente nas mesmas regiões já destacadas."</p>
             <p>Os pesquisadores do IGH pedem cautela extrema, pois os dados recentes ainda não foram totalmente verificados ou revisados por pares. No entanto, a nota conclui com um tom sombrio: "O Terceiro Despertar não parece ter sido um evento aleatório, mas um catalisador que amplificou padrões pré-existentes de maneiras que exigem investigação urgente. As implicações sociais, políticas e de segurança dessas tendências intensificadas são potencialmente explosivas."</p>
             <p>A ARISA e outros órgãos governamentais ainda não comentaram as novas descobertas preliminares do IGH.</p>
@@ -193,6 +193,7 @@ const newsData = [
     }
 
 ];
+
 
 
 
