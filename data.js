@@ -32,7 +32,7 @@ const newsData = [
         date: "05 de Fevereiro de 2020 - 10:46",  
         imageUrl: "https://agenciagov.ebc.com.br/noticias/202311/mcom-contrata-consultores-para-promover-estudos-sobre-remuneracao-de-pesquisadores-e-bolsistas/@@images/9ced9ece-0fe6-405b-a3e3-d43823f71f9f.jpeg" ,      
         fullStory: `
-            <p>O ataque caótico e violento perpetrado por um grupo extremista em Brasília esta tarde não reflete, de forma alguma, o sentimento da nação. Na verdade, ele pode ter servido apenas para solidificar a decisão de Sirius. Uma enquete rápida realizada pelo Instituto DataPulso, com entrevistas online conduzidas nos 30 minutos seguintes ao anúncio da cooperação, mostra um quadro claro: 72% dos brasileiros são "totalmente a favor" (41%) ou "a favor com ressalvas" (31%) da vinda da ARISA para auditar a investigação.</p>
+            <p>O ataque caótico e violento perpetrado por um grupo extremista em Albaresco esta tarde não reflete, de forma alguma, o sentimento da nação. Na verdade, ele pode ter servido apenas para solidificar a decisão de Sirius. Uma enquete rápida realizada pelo Instituto DataPulso, com entrevistas online conduzidas nos 30 minutos seguintes ao anúncio da cooperação, mostra um quadro claro: 72% dos brasileiros são "totalmente a favor" (41%) ou "a favor com ressalvas" (31%) da vinda da ARISA para auditar a investigação.</p>
             <p>O motivo pode ser resumido em uma palavra: confiança. Ou, mais precisamente, a total ausência dela nas instituições nacionais após o escândalo dos Defensores. Durante anos, o Brasil investiu em uma "cultura de heróis", tratando os Defensores não apenas como protetores, mas como símbolos morais. A "Queda dos Defensores", que expôs sua traição, não foi apenas uma falha de segurança; foi um trauma psicológico coletivo.</p>
             <p>"O brasileiro não se sente mais seguro sendo protegido por brasileiros. É uma ferida narcísica profunda", comentou o sociólogo Dr. Hélio Vargas, da USP. "A população não se vê mais representada por seus protetores. Eles não querem apenas que os culpados sejam punidos; eles querem que a própria *ideia* de justiça seja restaurada. E, neste momento, essa justiça tem que vir de fora. A ARISA é vista como uma entidade neutra, quase clínica, incapaz de ser corrompida pela política ou pelo poder local."</p>
             <p>O "a favor com ressalvas" dos 31% da enquete reside, majoritariamente, no medo da soberania. "Eu apoio, mas é um atestado de falência", disse um entrevistado. "Estamos convidando uma potência estrangeira para policiar nossa casa porque não conseguimos fazê-lo. É necessário, mas é humilhante."</g>
@@ -193,4 +193,5 @@ const newsData = [
     }
 
 ];
+
 
