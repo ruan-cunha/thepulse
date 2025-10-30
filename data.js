@@ -26,7 +26,7 @@ const newsData = [
         isMainHeadline: false,
         isSecondaryBreaking: true,
         category: "ANÁLISE E OPINIÃO",
-        headline: "ANÁLISE: População vê ARISA como 'mal necessário' e 'única saída' para crise.",
+        headline: "ANÁLISE: População vê ARISA como 'necessária' e 'única saída' para crise.",
         summary: "Diferente dos protestos radicais, enquetes mostram que 72% dos brasileiros apoiam a vinda da ARISA. Confiança na agência global supera a das instituições nacionais após escândalo.",
         author: "Clarissa Mendes, Editora de Sociedade",
         date: "05 de Fevereiro de 2020 - 10:46",  
@@ -193,3 +193,4 @@ const newsData = [
     }
 
 ];
+
