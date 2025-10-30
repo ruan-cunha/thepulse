@@ -10,7 +10,7 @@ const newsData = [
         imageUrl: "https://media.gettyimages.com/id/898-9/video/low-angle-medium-shot-reenactment-riot-police-advancing-on-demonstration-in-cemetery-arresting-and.jpg?s=640x640&k=20&c=NKssRL4o1hUYe47K32XBnwssvhvlUTRAsVM31JXvUok=", 
         fullStory: `
             <p>Em um pronunciamento tenso que parou o país, Sirius, o líder da inteligência dos Defensores e agora chefe da força-tarefa que investiga a própria equipe, foi alvo de um ataque coordenado. O evento ocorreu momentos após ele anunciar uma aliança sem precedentes com a agência global ARISA para finalizar a investigação sobre a queda dos heróis nacionais.</p>
-            <p>Sirius, a única figura de liderança dos Defensores que não foi implicada no escândalo de traição do mês passado, falou a uma nação que se sente traída. Ele confirmou que a investigação interna sobre o suposto conluio da equipe com células terroristas está "em estágio avançado."</p>
+            <p>Sirius, a única figura de liderança dos Defensores que não foi implicada no escândalo de traição do ano passado, falou a uma nação que se sente traída. Ele confirmou que a investigação interna sobre o suposto conluio da equipe com células terroristas está "em estágio avançado."</p>
             <p>Foi então que ele justificou sua decisão mais controversa. Sirius argumentou que o nível da conspiração exigia recursos forenses que o Brasil, agora comprometido, não possui. Ele citou diretamente a perícia da ARISA na catalogação e análise de dados após o Incidente de Chennai como o padrão-ouro de investigação imparcial. Por essa razão, ele anunciou a formalização de uma "cooperação técnica irrestrita". A ARISA não virá para "salvar" o Brasil, mas para "auditar" a investigação.</p>
             <p>A reação popular a essa notícia, medida por enquetes online, era majoritariamente positiva. No entanto, em meio a esse anúncio inicial, o ataque principal começou.</p>
             <p>Vindo das ruas laterais, um grupo de cinco indivíduos mascarados rompeu a barreira policial montados em criaturas bestiais, semelhantes a cães gigantes. Os agressores, usando máscaras distintas de gás, corvo, hóquei e duas balaclavas, avançaram sobre a multidão em pânico. Imediatamente, eles lançaram diversas bombas de fumaça em direção ao palco, cobrindo a coletiva em névoa.</p>
@@ -193,5 +193,6 @@ const newsData = [
     }
 
 ];
+
 
 
